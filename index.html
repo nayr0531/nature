@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natur</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="btns">
+        <button class="active" onclick="nextImage(0,1)"></button>
+        <button onclick="nextImage(-100,2)"></button>
+        <button onclick="nextImage(-200,3)"></button>
+      </div>
+      <div class="headline">
+        <div class="header">
+          <img src="./Assets/Logo.svg" alt="Natur Logo" />
+          <h1>Natur</h1>
+        </div>
+        <div class="headline-content">
+          <h2>The most beautiful and new discovery places in eartH.</h2>
+          <p class="subheadline">Most unbelievable places</p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dui
+            amet facilisis eget erat donec mi fames. Scelerisque aliquam
+            tincidunt diam egestas scelerisque tristique. In sed aliquet non
+            euismod faucibus viverra. Odio cras gravida fermentum felis amet.
+          </p>
+          <button>Explore now</button>
+        </div>
+        <div class="social-contact">
+          <a href="#"
+            ><span class="iconify" data-icon="akar-icons:facebook-fill"></span
+          ></a>
+          <a href="#"
+            ><span
+              class="iconify"
+              data-icon="entypo-social:twitter-with-circle"
+            ></span
+          ></a>
+          <a href="#"
+            ><span
+              class="iconify"
+              data-icon="entypo-social:instagram-with-circle"
+            ></span
+          ></a>
+        </div>
+      </div>
+      <div class="images">
+        <div class="image">
+          <img src="./Assets/image-1.jpg" alt="Image-1" />
+          <div class="show-article">
+            <button onclick="location.href='./image-pages/image-1.html'">
+              <span class="iconify" data-icon="ant-design:eye-filled"></span
+              >Show article
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./Assets/image-2.jpg" alt="Image-2" />
+          <div class="show-article">
+            <button onclick="location.href='./image-pages/image-2.html'">
+              <span class="iconify" data-icon="ant-design:eye-filled"></span
+              >Show article
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./Assets/image-3.jpg" alt="Image-3" />
+          <div class="show-article">
+            <button onclick="location.href='./image-pages/image-3.html'">
+              <span class="iconify" data-icon="ant-design:eye-filled"></span
+              >Show article
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="./scripts/main.js" type="text/javascript"></script>
+  </body>
+</html>
