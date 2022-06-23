@@ -1,3 +1,3 @@
 # natur
 
-Link: https://laidroc31.github.io/natur/
+Link: https://nayr0531.github.io/nature/
